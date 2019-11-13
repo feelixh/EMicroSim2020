@@ -243,7 +243,7 @@ $(document).ready(function(){
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
         
         // Output the result in an element with id="demo"
-        document.getElementById("timer").innerHTML ="<div class='start-in'>Começa em:</div>"+ days + "<span>dias  </span>: " + hours + "<span>horas</span>: "
+        document.getElementById("timer").innerHTML ="<div class='start-in'>Come&ccedil;a em:</div>"+ days + "<span>dias  </span>: " + hours + "<span>horas</span>: "
         + minutes + "<span>min  </span>: " + seconds + "<span>seg  </span>";
         
         // If the count down is over, write some text 
